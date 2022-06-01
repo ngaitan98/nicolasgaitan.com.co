@@ -13,8 +13,8 @@ function Main() {
                 alignItems="center"
             >
                 <Grid item>
-                    <Typography variant="h1" sx={{ fontWeight: 'bold' }}>
-                        Hey! 
+                    <Typography variant="h1" sx={{ fontWeight: 'bold' }} align="center">
+                        I'm building something cool.
                         Come back soon!
                     </Typography>
                 </Grid>
