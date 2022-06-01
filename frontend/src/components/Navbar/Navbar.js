@@ -23,7 +23,7 @@ function Navbar() {
             direction="row"
             justifyContent="space-evenly"
             alignItems="center">
-            {links.map((el, i) => <SocialLinkEntry key = {el.link} delay={300 + i*100} link = {el.link} component = {el.component}/>)}
+            {links.map((el, i) => <SocialLinkEntry key = {el.link} delay={300 + 500/(i/3+1)} link = {el.link} component = {el.component}/>)}
           </Grid>
         </Grid>
       </Grid>

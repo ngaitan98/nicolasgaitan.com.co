@@ -17,7 +17,7 @@ function setStyle({ theme }) {
             width: "0%",
             background: theme.palette.primary.main,
             zIndex: -1,
-            transition: "all ease-in 0.2s",
+            transition: "all ease-in 0.1s",
         },
         "&:hover::after": {
             width: "100%"
