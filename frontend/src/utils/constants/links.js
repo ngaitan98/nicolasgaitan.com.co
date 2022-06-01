@@ -1,4 +1,3 @@
-
 import { faSpotify, faGitlab, faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 const links = [{
     link: "https://www.linkedin.com/in/ngaitan98",

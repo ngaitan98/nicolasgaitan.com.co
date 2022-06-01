@@ -2,7 +2,7 @@ import { CssBaseline, Fade, Grid, Typography } from "@mui/material";
 import { ThemeProvider } from '@mui/material/styles';
 import Link from "./components/Link/Link";
 import Navbar from "./components/Navbar/Navbar";
-import { darkTheme } from "./utils/constants/styles.ts";
+import { darkTheme } from "./utils/constants/styles.js";
 import resume from "./assets/files/resume.pdf";
 
 function App() {

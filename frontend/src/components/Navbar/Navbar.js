@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Grid, Box, Slide, Fade } from '@mui/material';
 import logo from "../../assets/img/logo.png";
-import links from '../../utils/constants/links.ts';
+import links from '../../utils/constants/links.js';
 import SocialLink from '../SocialLink/SocialLink';
 
 function Navbar() {
