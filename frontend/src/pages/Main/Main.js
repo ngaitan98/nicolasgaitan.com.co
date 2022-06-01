@@ -14,7 +14,7 @@ function Main() {
             >
                 <Grid item>
                     <Typography variant="h1" sx={{ fontWeight: 'bold' }} align="center">
-                        I'm building something cool.
+                        I'm building something cool. <br/>
                         Come back soon!
                     </Typography>
                 </Grid>
