@@ -6,7 +6,7 @@ import SocialLink from '../SocialLink/SocialLink';
 
 function Navbar() {
   return (
-    <Box component="header" sx={{ position: "absolute", width: 1, height: "10vh" }}>
+    <Box component="header" sx={{ position: "absolute", top: 0, left: 0,  width: 1, height: "10vh" }}>
       <Grid
         sx={{ width: 1, height: 1 }}
         container
@@ -37,7 +37,7 @@ function SocialLinkEntry({delay, link, component}) {
   }
   return (
     <Slide key={link} in={true} style={{ transitionDelay: `${delay}ms` }}>
-      <SocialLink onClick={handleLinkClick}>
+      <SocialLink onClick={handleLinkClick} color = "secondary">
         <FontAwesomeIcon icon={component} />
       </SocialLink>
     </Slide>

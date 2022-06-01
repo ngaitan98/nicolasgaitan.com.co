@@ -12,13 +12,13 @@ function Main() {
                 justifyContent="center"
                 alignItems="center"
             >
-                <Grid item>
-                    <Typography variant="h1" sx={{ fontWeight: 'bold' }}>
-                        Hey! 
-                        Come back soon!
+                <Grid item sx={{ width: 0.8}}>
+                    <Typography variant="h3" sx={{ fontWeight: 'bold' }}>
+                        Hey! I am
                     </Typography>
-                </Grid>
-                <Grid item>
+                    <Typography variant="h1" sx={{ fontWeight: 'bold' }}>
+                        Nicolás Gaitán
+                    </Typography>
                     <Typography variant="p" sx={{ fontWeight: 400, fontSize: 25 }} align="center">
                         In the meantime you can <Link href={resume} target="_blank">check my resume</Link> or <Link href="mailto:nicolasgaitanps4@gmail.com">email me</Link> too.
                     </Typography>
