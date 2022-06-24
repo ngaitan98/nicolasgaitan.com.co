@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material"
 const baseTheme = createTheme({
   typography: {
     fontFamily: "'PT Sans', sans-serif",
-    fontSize: 14,
+    fontSize: 12,
     fontWeightLight: 300, // Work Sans
     fontWeightRegular: 400, // Work Sans
     fontWeightMedium: 700, // Roboto Condensed

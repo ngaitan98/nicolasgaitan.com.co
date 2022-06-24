@@ -1,4 +1,7 @@
 import { faSpotify, faGitlab, faGithub, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faPersonSkating as faResume} from "@fortawesome/free-solid-svg-icons";
+import resume from "../../assets/files/resume.pdf";
+
 const links = [{
     link: "https://www.linkedin.com/in/ngaitan98",
     component: faLinkedin
@@ -8,6 +11,9 @@ const links = [{
 }, {
     link: "https://www.gitlab.com/ngaitan98",
     component: faGitlab
+}, {
+    link: resume,
+    component: faResume
 }, {
     link: "https://www.instagram.com/untalgaitan",
     component: faInstagram
