@@ -1,20 +1,12 @@
-import { Fade, Grid, Typography, Box } from "@mui/material";
+import { Fade, Grid, Typography } from "@mui/material";
 
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { EffectCards } from 'swiper';
-import 'swiper/css';
-import "swiper/css/effect-cards";
-
-import portrait1 from "../../assets/img/portraits/portrait1.jpeg"
-import portrait2 from "../../assets/img/portraits/portrait3.jpeg"
-import portrait3 from "../../assets/img/portraits/portrait2.jpeg"
 import Link from "../../components/Link/Link";
 import List from "../../components/List/List";
 import ListItem from "../../components/List/ListItem";
 
-function About() {
+function Experience() {
     return (
         <>
             <Fade in={true} style={{ transitionDelay: "400ms" }}>
@@ -26,10 +18,9 @@ function About() {
                     justifyContent="center"
                 >
                     <Grid
-                        item
-                        xs={6}>
+                        item>
                         <SectionTitle component="h1">
-                            About
+                            Experience
                         </SectionTitle>
                         <Typography variant="p" sx={{ fontWeight: 400, fontSize: 20 }} align="center">
                             Hello! My name is Nicolás, and I enjoy creating strong back-ends. My interest in programming started back when I was 10 years old when I dreamed about creating video games. I built a simple stickman game and it led me to study Software Engineering.
@@ -61,30 +52,10 @@ function About() {
                             <ListItem>AWS</ListItem>
                         </List>
                     </Grid>
-                    <Grid
-                        item
-                        xs={6}>
-                        <Cards />
-                    </Grid>
                 </Grid>
             </Fade>
         </>)
 }
 
-function Cards() {
-    return (
-        <Swiper
-            effect="cards"
-            grabCursor={true}
-            cardsEffect={{
-                slideShadows: false
-            }}
-            modules={[EffectCards]}
-        >
-            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: `url(${portrait1})`, backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
-            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: `url(${portrait2})`, backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
-            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: `url(${portrait3})`, backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
-        </Swiper>
-    )
-}
-export default About;
+
+export default Experience;
