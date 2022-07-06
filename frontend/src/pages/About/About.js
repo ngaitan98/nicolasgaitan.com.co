@@ -81,9 +81,9 @@ function Cards() {
             }}
             modules={[EffectCards]}
         >
-            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: `url(${portrait1})`, backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
-            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: `url(${portrait2})`, backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
-            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: `url(${portrait3})`, backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
+            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: 'url("https://s3.us-east-1.amazonaws.com/nicolasgaitan.com.co/images/portrait1.jpeg)', backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
+            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: 'url("https://s3.us-east-1.amazonaws.com/nicolasgaitan.com.co/images/portrait2.jpeg)', backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
+            <SwiperSlide><Box sx={{ height: 480, width: 360, borderRadius: "18px", background: 'url("https://s3.us-east-1.amazonaws.com/nicolasgaitan.com.co/images/portrait3.jpeg)', backgroundRepeat: "no-repeat", backgroundSize: "auto 115%"}} /></SwiperSlide>
         </Swiper>
     )
 }
