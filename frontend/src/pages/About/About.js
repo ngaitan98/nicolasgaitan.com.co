@@ -34,7 +34,7 @@ function About() {
                         <br />
                         <br />
                         <Typography variant="p" sx={{ fontWeight: 400, fontSize: 20 }} align="center">
-                            Fast-forward to today and I no longer want to build only video games, but I want to build challenging back-ends. So far, I’ve had the privilege to work at a <Link href="https://www.phitech.io/" rel="noreferrer" target="_blank">sart-up</Link>, at <Link href = "https://cupi2.virtual.uniandes.edu.co/" rel="noreferrer" target="_blank"> my university</Link>, and a <Link href = "https://thesoftwaredesignlab.github.io/proyectoCovidAngel/" rel = "noreferrer" target="_blank">non-profit mobile app</Link>. My focus right now is building back-ends with modern technologies such as containers and cloud services.
+                            Fast-forward to today and I no longer want to build only video games, but I want to build challenging back-ends. So far, I’ve had the privilege to work at a <Link href="https://www.phitech.io/" rel="noreferrer" target="_blank">start-up</Link>, at <Link href = "https://cupi2.virtual.uniandes.edu.co/" rel="noreferrer" target="_blank"> my university</Link>, and a <Link href = "https://thesoftwaredesignlab.github.io/proyectoCovidAngel/" rel = "noreferrer" target="_blank">non-profit mobile app</Link>. My focus right now is building back-ends with modern technologies such as containers and cloud services.
                         </Typography>
                         <br />
                         <br />
