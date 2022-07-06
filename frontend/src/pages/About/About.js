@@ -7,9 +7,6 @@ import { EffectCards } from 'swiper';
 import 'swiper/css';
 import "swiper/css/effect-cards";
 
-import portrait1 from "../../assets/img/portraits/portrait1.jpeg"
-import portrait2 from "../../assets/img/portraits/portrait3.jpeg"
-import portrait3 from "../../assets/img/portraits/portrait2.jpeg"
 import Link from "../../components/Link/Link";
 import List from "../../components/List/List";
 import ListItem from "../../components/List/ListItem";

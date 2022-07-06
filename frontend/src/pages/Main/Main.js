@@ -1,6 +1,5 @@
 import { Fade, Grid, Typography } from "@mui/material";
 import Link from "../../components/Link/Link";
-import resume from "../../assets/files/resume.pdf";
 import Navbar from "../Navbar/Navbar";
 
 function Main() {
@@ -30,7 +29,7 @@ function Main() {
                         </Typography>
                         <br />
                         <Typography variant="p" sx={{ fontWeight: 400, fontSize: 20 }} align="center">
-                            Not sure yet? <Link href={resume} target="_blank">Check my resume</Link> or <Link href="mailto:nicolasgaitanps4@gmail.com">say hi</Link>.
+                            Not sure yet? <Link href="https://s3.us-east-1.amazonaws.com/nicolasgaitan.com.co/files/resume.pdf" target="_blank">Check my resume</Link> or <Link href="mailto:nicolasgaitanps4@gmail.com">say hi</Link>.
                         </Typography>
                     </Grid>
                 </Grid>
