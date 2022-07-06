@@ -11,7 +11,7 @@ import "swiper/css/bundle";
 
 function App() {
   return (
-    <ThemeProvider theme={darkTheme}>
+    <ThemeProvider theme={darkTheme} >
       <CssBaseline />
       <Main />
       <About id = "about"/>

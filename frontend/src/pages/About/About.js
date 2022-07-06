@@ -19,7 +19,7 @@ function About() {
         <>
             <Fade in={true} style={{ transitionDelay: "400ms" }}>
                 <Grid
-                    sx={{ width: 1, minHeight: "60vh", paddingLeft: "15%"}}
+                    sx={{ width: 1, minHeight: "1000px", paddingLeft: "15%"}}
                     container
                     spacing = {10}
                     alignItems="center"
@@ -29,7 +29,7 @@ function About() {
                         item
                         xs={6}>
                         <SectionTitle component="h1">
-                            About
+                            About Me
                         </SectionTitle>
                         <Typography variant="p" sx={{ fontWeight: 400, fontSize: 20 }} align="center">
                             Hello! My name is Nicolás, and I enjoy creating strong back-ends. My interest in programming started back when I was 10 years old when I dreamed about creating video games. I built a simple stickman game and it led me to study Software Engineering.

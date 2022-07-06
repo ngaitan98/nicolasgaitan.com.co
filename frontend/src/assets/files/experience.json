@@ -1,0 +1,40 @@
+[
+    {
+        "company": "Phi Technologies",
+        "position": "Software Engineer",
+        "location": "Remote",
+        "dates": "Aug 2021 – Mar 2022",
+        "tasks": [
+            "Increased machine resource usage by 60% by designing and implementing a micro-services based architecture using Docker containers.",
+            "Created a Dashboard that centralized all the micro-services using React, NodeJS, Nginx, PostgresSQL, and Docker.",
+            "Increased data purity by 80% by cleaning existing data and designing MongoDB pipelines for incoming data using Python and JavaScript.",
+            "Improved the performance of a recommendation system by 90% by rebuilding it using NodeJS, ElasticSearch, MongoDB, React, and Docker",
+            "Led a team of 3 members as an experienced software engineer."
+        ]
+    },
+    {
+        "company": "Senecare",
+        "position": "Lead Backend Engineer",
+        "location": "Bogotá, Colombia",
+        "dates": "Jan 2021 – Aug 2021",
+        "tasks": [
+            "Primary System Administrator for Senecare. A critical application for 18.000+ users at Universidad de los Andes during the pandemic.",
+            "Improved the performance of existing services by 80% by identifying and fixing all the existing bugs.",
+            "Found and fixed a critical security breach which compromised sensible users data.",
+            "Designed and implemented a new micro-service for vaccination requirements issued by the government at the time using NodeJS, React, Redux, PostgresSQl, Docker, and TypeORM",
+            "Trained new team members and added video tutorials."
+        ]
+    },
+    {
+        "company": "Phi Technologies",
+        "position": "Junior Software Engineer",
+        "location": "Prague, Czech Republic",
+        "dates": "Mar 2020 – Jan 2021",
+        "tasks": [
+            "Crawled 600.000+ medical documents using ScrapPy, Puppeteer, Python, JavaScript, NodeJS, and ElasticSearch.",
+            "Extracted the key concepts of the documents by using an ontology API created by another team. Built using NodeJS and Python.",
+            "Designed and coded a search engine for the crawled documents using NodeJS, React, and ElasticSearch.",
+            "Fed 1.000.000+ concepts into an ontology by simplifying the German version of ICD-10 using Python and C#."
+        ]
+    }
+]

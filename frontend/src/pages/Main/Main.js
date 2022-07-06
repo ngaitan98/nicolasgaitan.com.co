@@ -9,7 +9,7 @@ function Main() {
             <Navbar />
             <Fade in={true} style={{ transitionDelay: "400ms" }}>
                 <Grid
-                    sx={{ width: 1, height: "90vh" }}
+                    sx={{ width: 1, height: "100vh" }}
                     container
                     direction="column"
                     justifyContent="center"
