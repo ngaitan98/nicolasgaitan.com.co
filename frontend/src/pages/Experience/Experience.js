@@ -45,10 +45,13 @@ function ExperienceEntry({ entry }) {
     return (
         <TimelineItem>
             <TimelineOppositeContent sx={{ flex: "1" }}>
-                {entry.position}
-                <Typography element="span" color="secondary.main">
+                <Typography element="span" color="secondary.main" fontSize={14}>
+                    {`${entry.position}\n`} <br/>
                     at{" "}
                     <Link target="_blank" href={entry.link} rel="noreferrer">{entry.company}</Link>
+                </Typography>
+                <Typography element="span" fontSize={12} fontStyle="italic">
+                    {entry.dates}
                 </Typography>
             </TimelineOppositeContent>
             <TimelineSeparator>
