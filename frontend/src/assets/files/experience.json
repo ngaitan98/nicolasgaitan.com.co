@@ -10,7 +10,8 @@
             "Increased data purity by 80% by cleaning existing data and designing MongoDB pipelines for incoming data using Python and JavaScript.",
             "Improved the performance of a recommendation system by 90% by rebuilding it using NodeJS, ElasticSearch, MongoDB, React, and Docker",
             "Led a team of 3 members as an experienced software engineer."
-        ]
+        ],
+        "link": "https://www.phitech.io/"
     },
     {
         "company": "Senecare",
@@ -23,7 +24,8 @@
             "Found and fixed a critical security breach which compromised sensible users data.",
             "Designed and implemented a new micro-service for vaccination requirements issued by the government at the time using NodeJS, React, Redux, PostgresSQl, Docker, and TypeORM",
             "Trained new team members and added video tutorials."
-        ]
+        ],
+        "link": "https://thesoftwaredesignlab.github.io/proyectoCovidAngel/"
     },
     {
         "company": "Phi Technologies",
@@ -35,6 +37,7 @@
             "Extracted the key concepts of the documents by using an ontology API created by another team. Built using NodeJS and Python.",
             "Designed and coded a search engine for the crawled documents using NodeJS, React, and ElasticSearch.",
             "Fed 1.000.000+ concepts into an ontology by simplifying the German version of ICD-10 using Python and C#."
-        ]
+        ],
+        "link": "https://www.phitech.io/"
     }
 ]
