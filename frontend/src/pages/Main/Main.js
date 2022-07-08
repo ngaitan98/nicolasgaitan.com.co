@@ -33,7 +33,6 @@ function Main() {
                         </Typography>
                     </Grid>
                 </Grid>
-
             </Fade>
         </>)
 }
