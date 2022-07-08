@@ -10,7 +10,7 @@ function setStyle({ theme }) {
             content: '""',
             position: "absolute",
             left: "40px",
-            bottom: 0,
+            bottom: "-3px",
             height: "30%",
             width: "10%",
             background: theme.palette.secondary.main,

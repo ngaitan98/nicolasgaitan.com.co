@@ -50,6 +50,9 @@ function ExperienceEntry({ entry }) {
                     at{" "}
                     <Link target="_blank" href={entry.link} rel="noreferrer">{entry.company}</Link>
                 </Typography>
+                <Typography element="span" fontSize={12}>
+                    {entry.location}
+                </Typography>
                 <Typography element="span" fontSize={12} fontStyle="italic">
                     {entry.dates}
                 </Typography>
