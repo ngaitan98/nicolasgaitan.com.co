@@ -14,13 +14,14 @@ function setStyle({ theme }) {
             left: 0,
             bottom: 0,
             height: "10%",
-            width: "0%",
-            background: theme.palette.primary.main,
+            width: "15%",
+            background: theme.palette.secondary.main,
             zIndex: -1,
             transition: "all ease-in 0.1s",
         },
         "&:hover::after": {
-            width: "100%"
+            width: "100%",
+            background: theme.palette.secondary.main,
         }
     }
 };

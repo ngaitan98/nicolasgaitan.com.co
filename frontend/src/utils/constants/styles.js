@@ -3,7 +3,7 @@ import { createTheme } from "@mui/material"
 const baseTheme = createTheme({
   typography: {
     fontFamily: "'PT Sans', sans-serif",
-    fontSize: 14,
+    fontSize: 12,
     fontWeightLight: 300, // Work Sans
     fontWeightRegular: 400, // Work Sans
     fontWeightMedium: 700, // Roboto Condensed
@@ -13,15 +13,18 @@ const baseTheme = createTheme({
 const darkTheme = createTheme({
   ...baseTheme,
   palette: {
-    mode: "dark",
+    mode: "light",
     background: {
-        default: "#404EED"
+        default: "#FFF"
     },
     primary: {
-      main: "#F6F6F6"
+      main: "#000"
     },
     secondary: {
-      main: "#151617"
+      main: "#404EED"
+    },
+    secondary_b: {
+      main: "#000"
     }
   }
 })
@@ -29,11 +32,14 @@ const lightTheme = createTheme({
   ...baseTheme,
   palette: {
     mode: "light",
+    background: {
+        default: "#FFF"
+    },
     primary: {
-      main: "#fafafa"
+      main: "#000"
     },
     secondary: {
-      main: "#26a27b"
+      main: "#404EED"
     }
   }
 })

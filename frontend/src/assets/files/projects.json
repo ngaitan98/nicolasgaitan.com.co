@@ -1,0 +1,24 @@
+[
+    {
+        "title": "Los Troncos",
+        "summary": "An AWS hosted Blockchain solution to control illegal wood trafficking in Colombia. It allows wood choppers to register pieces of wood in a Blockchain via SMS, and police officers to verify them using a mobile app and a QR code. As well, it has a visualizer where users could trace the origin of their final wood products.",
+        "repo": "https://devpost.com/software/los-troncos",
+        "stack": ["Flutter", "Node.js", "React", "Twilio", "AWS"]
+    },{
+        "title": "Senecare Backend",
+        "summary": "Senecare is a mobile out that helps to mitigate the spread of COVID-19 in Uniandes. By filling a daily test designed by the medical staff, it is determined whether the person can enter the campus. It also collects data related to the disease and vaccinatios for a visualizer designed for the medical staff.",
+        "repo": "https://github.com/TheSoftwareDesignLab/CovidAngel-backend",
+        "demo": "https://thesoftwaredesignlab.github.io/Senecare/",
+        "stack": ["Node.js", "PostgreSQL","Azure Cloud", "Docker"]
+    },{
+        "title": "Cooking Martha",
+        "summary": "A personal assistant that helps people through the process of cooking. Martha can recommend you recipes based on your ingredients, guide you through a recipe, and answer you any question related to cooking",
+        "repo": "https://github.com/ngaitan98/CookIA",
+        "stack": ["Ionic", "Speech to Text", "IBM Watson", "Firebase", "Google Cloud Platform"]
+    },{
+        "title": "QPark",
+        "summary": "A mobile app that helps people to park their vehicle in crowded areas. Simply schedule a pickup point using the mobile app, and one of our valets will be waiting for you.",
+        "repo": "https://gitlab.com/ngaitan98/isis3510_201920_p_grupo11",
+        "stack": ["Swift", "Flutter","Firebase", "Google Cloud Platform"]
+    }
+]
