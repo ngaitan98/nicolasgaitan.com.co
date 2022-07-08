@@ -41,7 +41,7 @@ function About() {
                             <br />
                             <br />
                             <Typography variant="p" sx={{ fontWeight: 400, fontSize: "18px" }} align="center">
-                                Also my dream has changed, and I’d like to keep my current career path, and learn Machine Learning somewhere soon to build fun useless side projects.
+                                At the moment, I'm aiming my career towards becoming a back-end engineer, but I'd like to work with Aritificial Intelligence in the future, so I can build fun useless projects.
                             </Typography>
                             <br />
                             <br />

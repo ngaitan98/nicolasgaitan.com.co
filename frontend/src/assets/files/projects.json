@@ -7,7 +7,8 @@
     },{
         "title": "Senecare Backend",
         "summary": "Senecare is a mobile out that helps to mitigate the spread of COVID-19 in Uniandes. By filling a daily test designed by the medical staff, it is determined whether the person can enter the campus. It also collects data related to the disease and vaccinatios for a visualizer designed for the medical staff.",
-        "repo": "https://gitlab.com/ngaitan98/isis3510_201920_p_grupo11",
+        "repo": "https://github.com/TheSoftwareDesignLab/CovidAngel-backend",
+        "demo": "https://thesoftwaredesignlab.github.io/Senecare/",
         "stack": ["Node.js", "PostgreSQL","Azure Cloud", "Docker"]
     },{
         "title": "Cooking Martha",

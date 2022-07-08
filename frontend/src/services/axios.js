@@ -9,5 +9,6 @@ export async function getExeperience(){
 }
 export async function getProjects(){
     const {data} = await instance.get("/files/projects.json");
+    console.log(data);
     return data
 }

@@ -24,12 +24,12 @@ function Projects() {
 
     return (
         <Fade in={true} style={{ transitionDelay: "400ms" }}>
-            <Container sx={{ minHeight: "100vh" }}>
+            <Container>
                 <SectionTitle>Things I've built</SectionTitle>
                 <br />
                 <Grid container
                     spacing={{ xs: 2, md: 3 }}
-                    columns={{ xs: 2, sm: 2, md: 6 }}
+                    columns={{ xs: 1, sm: 2, md: 8 }}
                 >
                     {projects.map((el) => <Project key={el.title} project={el}>{el.title}</Project>)}
                 </Grid>
@@ -41,11 +41,14 @@ function Project({ project }) {
     const handleRepoClick = () => {
         window.open(project.repo, "_blank")
     }
+    const handleDemoClick = () => {
+        window.open(project.demo, "_blank")
+    }
     return (
         <Grid item
             xs={1} sm={1} md={2}
         >
-            <Card sx={{ width: 1, height: "100%" }}>
+            <Card sx={{ width: 1, height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="div">
                         {project.title}
@@ -58,15 +61,15 @@ function Project({ project }) {
                             "display": "flex",
                             "flexWrap": "wrap"
                         }}>
-                        {project.stack.map(el => <Chip sx = {{mt: 1,ml: 1}} key={`${project.title}-${el}`} label={el} />)}
+                        {project.stack.map(el => <Chip sx = {{mt: 1,mr: 0.5, ml: 0.5}} key={`${project.title}-${el}`} label={el} />)}
                     </Box>
                 </CardContent>
                 <CardActions sx ={{display: "flex", justifyContent: "flex-end", bottom: "0"}}>
+                    <SocialLink onClick={handleDemoClick} color="secondary" sx = {{display: project.demo?"block":"none"}}>
+                        <FontAwesomeIcon icon={faUpRightFromSquare} />
+                    </SocialLink>
                     <SocialLink onClick={handleRepoClick} color="secondary">
                         <FontAwesomeIcon icon={faGithub} />
-                    </SocialLink>
-                    <SocialLink color="secondary">
-                        <FontAwesomeIcon icon={faUpRightFromSquare} />
                     </SocialLink>
                 </CardActions>
             </Card>
