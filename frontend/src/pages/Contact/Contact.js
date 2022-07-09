@@ -7,6 +7,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 
 function Contact() {
+    function openLinkedin(){
+        window.open("https://www.linkedin.com/in/ngaitan98", "_blank");
+    }
+    function openEmail(){
+        window.open("mailto:nicolasgaitanps4@gmail.com", "_blank");
+    }
     return (
         <>
             <Fade in={true} style={{ transitionDelay: "400ms" }}>
@@ -37,10 +43,10 @@ function Contact() {
                             pt:5,
                             width: 500
                         }}>
-                            <Button variant="outlined" color = "secondary" sx={{textTransform: "none", fontSize: "18px"}} startIcon={<FontAwesomeIcon icon = {faEnvelope}/>}>
+                            <Button onClick = {openEmail} variant="outlined" color = "secondary" sx={{textTransform: "none", fontSize: "18px"}} startIcon={<FontAwesomeIcon icon = {faEnvelope}/>}>
                                 Say Hello
                             </Button>
-                            <Button variant="outlined" color = "secondary" sx={{textTransform: "none", fontSize: "18px"}} startIcon={<FontAwesomeIcon icon = {faLinkedin}/>}>
+                            <Button onClick = {openLinkedin} variant="outlined" color = "secondary" sx={{textTransform: "none", fontSize: "18px"}} startIcon={<FontAwesomeIcon icon = {faLinkedin}/>}>
                                 Linkedin
                             </Button>
                     </Box>
