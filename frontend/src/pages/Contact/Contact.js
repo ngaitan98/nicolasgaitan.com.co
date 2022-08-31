@@ -33,7 +33,7 @@ function Contact() {
                         Get In Touch
                     </Typography>
                     <Typography variant="p" sx={{ fontWeight: 400, fontSize: 18, textAlign: "center", maxWidth: "500px" }} align="center">
-                        At the moment, I'm looking for a new workplace where I can bring to the table all that you've seen so far. Therefore, feel free to contact me whether you want to tell me about a position or just say hi!
+                        Even though I'm not actively looking for an offer, feel free to say hi or tell me what you have in mind
                     </Typography>
                     <Box
                         sx={{

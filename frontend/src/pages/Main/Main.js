@@ -25,7 +25,7 @@ function Main() {
                             And I like to develop cool things.
                         </Typography>
                         <Typography variant="p" sx={{ fontWeight: 400, fontSize: 20 }} align="center">
-                            I am a software engineer specialized in building backends (mainly NodeJS) and deploying them to the cloud. Sometimes I like to work with user interfaces too. At the moment I'm open to offers.
+                            I am a software engineer specialized in building backends and bringing them to the cloud. Sometimes I like to work with user interfaces too. At the moment I'm working at <Link href="https://www.amazon.com/" target="_blank" rel="noreferrer">Amazon</Link>.
                         </Typography>
                         <br />
                         <Typography variant="p" sx={{ fontWeight: 400, fontSize: 20 }} align="center">

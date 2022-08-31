@@ -1,5 +1,14 @@
 [
     {
+        "company": "Amazon",
+        "position": "Software Development Engineer I",
+        "location": "Luxembourg",
+        "dates": "Jan 2023 – Present",
+        "tasks": [
+            "Built services for transportation logistics."
+        ],
+        "link": "https://www.amazon.com/"
+    },{
         "company": "Phi Technologies",
         "position": "Software Engineer",
         "location": "Remote",
